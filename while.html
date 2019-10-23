@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Title of the document</title>
+<script>
+    var i = 0;
+    console.log("cod inainte de while");
+    while (i < 5) {
+        console.log(i);
+        i++;
+        //break; - instructiunea ma scoate din blocul de cod curent (codul dintre {})
+        //console.log("sunt dupa break");
+        // acum revin la linia cu while (i < 5) -> daca e true voi executa secventa de cod
+    }
+        console.log("cod dupa while");
+
+
+    console.log("cod inainte de do while");
+    i = 0;
+    do {
+        console.log(i);
+        i++;
+        
+        //break; - instructiunea ma scoate din blocul de cod curent (codul dintre {})
+        //console.log("sunt dupa break");
+        // acum revin la linia cu while (i < 5) -> daca e true voi executa secventa de cod
+    } while (i < 5)
+        console.log ("cod de dupa do while");
+
+    do {
+        console.log("am intrat o data in do while");
+    } while (false)
+    while (false) {
+        console.log ("aici nu intra");
+    }
+        
+</script>
+</head>
+
+<body>
+The content of the document......
+</body>
+
+</html>
